@@ -1,0 +1,9 @@
+.card {
+    width: calc(2.5 * 8vmin);
+    height: calc(3.5 * 8vmin);
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    margin: 1vmin;
+    background-size: contain;
+    cursor: pointer;
+}

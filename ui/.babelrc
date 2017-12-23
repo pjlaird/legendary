@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "targets": {
+          "chrome": 60
+        },
+        "modules": false,
+        "debug": true
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    [
+      "react-hot-loader/babel",
+      "react-css-modules",
+      "transform-class-properties",
+      {
+        "webpackHotModuleReloading": "true"
+      }
+    ]
+  ]
+}
